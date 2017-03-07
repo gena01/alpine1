@@ -1,0 +1,34 @@
+[alias]
+    br = branch
+    ci = commit -a
+    co = checkout
+    st = status
+    praise = blame
+    tree = log --oneline --decorate --graph
+    rt = remote
+    ft = fetch
+    fall = fetch --all -p
+    dc = diff --cached
+    theirs= checkout --theirs
+
+[apply]
+    whitespace = strip
+
+[diff]
+    rename = copy
+    #algorithm = patience
+    
+[push]
+    default = current
+    
+[log]
+    decorate = short
+    
+[color]
+    ui = true
+    
+[core]
+    pager = less -r
+[user]
+	name = Change Me
+	email = aaa@home.com
